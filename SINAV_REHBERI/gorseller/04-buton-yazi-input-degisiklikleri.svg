@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" height="100%">
+  <defs>
+    <style>
+      .bg { fill: #0f172a; rx: 16px; }
+      .card { fill: #1e293b; stroke: #334155; stroke-width: 2; rx: 12px; }
+      .screen { fill: #f8fafc; stroke: #94a3b8; stroke-width: 2; rx: 10px; }
+      .title { fill: #f8fafc; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 20px; font-weight: bold; }
+      .subtitle { fill: #38bdf8; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 14px; font-weight: bold; }
+      .code { fill: #facc15; font-family: 'Courier New', monospace; font-size: 12px; font-weight: bold; }
+      .btn-text { fill: #ffffff; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 12px; font-weight: bold; text-anchor: middle; dominant-baseline: central; }
+    </style>
+  </defs>
+
+  <rect class="bg" width="960" height="540" />
+  <text x="30" y="38" class="title">4. GÖRSEL REHBER: YAZI TİPLERİ, BUTONLAR, CHECKBOX, RADIO VE HESAPLAMA</text>
+
+  <g transform="translate(25, 60)">
+    <rect class="card" width="290" height="220" />
+    <text x="15" y="25" class="subtitle">1) YAZI TİPİ / STİLİ DEĞİŞTİRME</text>
+    <rect class="screen" x="18" y="40" width="254" height="165" />
+    <text x="30" y="65" fill="#0f172a" font-family="sans-serif" font-size="16" font-weight="bold">Kalın: fontWeight: 'bold'</text>
+    <text x="30" y="92" fill="#2563eb" font-family="serif" font-size="15" font-style="italic">İtalik: fontStyle: 'italic'</text>
+    <text x="30" y="119" fill="#dc2626" font-family="sans-serif" font-size="14" text-decoration="line-through">Üstü Çizili: 'line-through'</text>
+    <text x="30" y="146" fill="#0284c7" font-family="sans-serif" font-size="14" text-decoration="underline">Altı Çizili: 'underline'</text>
+    <text x="30" y="173" fill="#16a34a" font-family="monospace" font-size="13" font-weight="bold">FONT: fontFamily: 'monospace'</text>
+    <text x="30" y="195" fill="#9333ea" font-family="sans-serif" font-size="12" letter-spacing="3">HARF ARALIĞI: letterSpacing: 3</text>
+  </g>
+
+  <g transform="translate(335, 60)">
+    <rect class="card" width="290" height="220" />
+    <text x="15" y="25" class="subtitle">2) BUTON ŞEKİLLERİ &amp; YERLERİ</text>
+    <rect class="screen" x="18" y="40" width="254" height="165" />
+    <circle cx="95" cy="75" r="22" fill="#ef4444" />
+    <text x="95" y="75" class="btn-text">-</text>
+    <text x="145" y="75" fill="#0f172a" font-family="sans-serif" font-size="20" font-weight="bold" text-anchor="middle" dominant-baseline="central">5</text>
+    <circle cx="195" cy="75" r="22" fill="#22c55e" />
+    <text x="195" y="75" class="btn-text">+</text>
+    <rect x="45" y="110" width="200" height="34" rx="17" fill="#f59e0b" />
+    <text x="145" y="127" class="btn-text">★ Favorilere Eklendi (rx: 999)</text>
+    <rect x="45" y="155" width="200" height="34" rx="8" fill="#cbd5e1" />
+    <text x="145" y="172" fill="#64748b" font-family="sans-serif" font-size="12" font-weight="bold" text-anchor="middle" dominant-baseline="central">Pasif Buton (disabled: true)</text>
+  </g>
+
+  <g transform="translate(645, 60)">
+    <rect class="card" width="290" height="220" />
+    <text x="15" y="25" class="subtitle">3) CHECKBOX VE RADIO BUTTON</text>
+    <rect class="screen" x="18" y="40" width="254" height="165" />
+    <rect x="35" y="55" width="20" height="20" rx="4" fill="#22c55e" />
+    <text x="45" y="65" class="btn-text">✓</text>
+    <text x="65" y="69" fill="#64748b" font-family="sans-serif" font-size="13" text-decoration="line-through">Tamamlanan Görev (Checkbox)</text>
+    <rect x="35" y="88" width="20" height="20" rx="4" fill="#ffffff" stroke="#64748b" stroke-width="2" />
+    <text x="65" y="102" fill="#0f172a" font-family="sans-serif" font-size="13">Bekleyen Görev</text>
+    <circle cx="45" cy="135" r="10" fill="#ffffff" stroke="#0284c7" stroke-width="2" />
+    <circle cx="45" cy="135" r="5" fill="#0284c7" />
+    <text x="65" y="139" fill="#0f172a" font-family="sans-serif" font-size="13" font-weight="bold">Seçili Radio (Tekli Seçim)</text>
+    <circle cx="45" cy="168" r="10" fill="#ffffff" stroke="#64748b" stroke-width="2" />
+    <text x="65" y="172" fill="#64748b" font-family="sans-serif" font-size="13">Seçilmemiş Radio</text>
+  </g>
+
+  <g transform="translate(25, 300)">
+    <rect class="card" width="450" height="215" />
+    <text x="15" y="25" class="subtitle">4) HESAPLAMA KARTI (SumCalculator -&gt; 4 İşlem / Vize-Final)</text>
+    <rect class="screen" x="18" y="40" width="414" height="160" />
+    <rect x="32" y="52" width="185" height="34" rx="6" fill="#ffffff" stroke="#94a3b8" />
+    <text x="42" y="73" fill="#64748b" font-family="sans-serif" font-size="12">1. Sayı / Vize: 60</text>
+    <rect x="232" y="52" width="185" height="34" rx="6" fill="#ffffff" stroke="#94a3b8" />
+    <text x="242" y="73" fill="#64748b" font-family="sans-serif" font-size="12">2. Sayı / Final: 80</text>
+    <rect x="32" y="98" width="90" height="34" rx="6" fill="#2563eb" />
+    <text x="77" y="115" class="btn-text">Topla (+)</text>
+    <rect x="130" y="98" width="90" height="34" rx="6" fill="#dc2626" />
+    <text x="175" y="115" class="btn-text">Çıkar (-)</text>
+    <rect x="228" y="98" width="90" height="34" rx="6" fill="#16a34a" />
+    <text x="273" y="115" class="btn-text">Çarp (×)</text>
+    <rect x="326" y="98" width="90" height="34" rx="6" fill="#9333ea" />
+    <text x="371" y="115" class="btn-text">Böl (÷)</text>
+    <rect x="32" y="142" width="384" height="44" rx="8" fill="#dcfce7" stroke="#22c55e" />
+    <text x="224" y="168" fill="#15803d" font-family="sans-serif" font-size="15" font-weight="bold" text-anchor="middle">Sonuç: 140 (Ortalama: 72 - GEÇTİ 🎉)</text>
+  </g>
+
+  <g transform="translate(495, 300)">
+    <rect class="card" width="440" height="215" />
+    <text x="15" y="25" class="subtitle">5) INPUT DOĞRULAMA &amp; LİSTE ARAMA FİLTRESİ</text>
+    <rect class="screen" x="18" y="40" width="404" height="160" />
+    <rect x="32" y="52" width="376" height="36" rx="8" fill="#ffffff" stroke="#22c55e" stroke-width="2" />
+    <text x="44" y="75" fill="#0f172a" font-family="sans-serif" font-size="13">ornek@okul.edu.tr (Geçerli -&gt; Yeşil Çerçeve)</text>
+    <rect x="32" y="98" width="376" height="36" rx="8" fill="#ffffff" stroke="#ef4444" stroke-width="2" />
+    <text x="44" y="121" fill="#ef4444" font-family="sans-serif" font-size="13">hatali-mail (Geçersiz -&gt; Kırmızı Çerçeve)</text>
+    <rect x="32" y="144" width="376" height="42" rx="8" fill="#e0f2fe" />
+    <text x="44" y="169" fill="#0369a1" font-family="sans-serif" font-size="12" font-weight="bold">Kalan Karakter: 95 / 120 • Arama: .filter(x =&gt; ...)</text>
+  </g>
+</svg>

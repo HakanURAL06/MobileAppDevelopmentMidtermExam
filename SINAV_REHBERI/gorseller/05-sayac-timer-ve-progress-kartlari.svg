@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 460" width="100%" height="100%">
+  <defs>
+    <style>
+      .bg { fill: #0f172a; rx: 16px; }
+      .card { fill: #1e293b; stroke: #334155; stroke-width: 2; rx: 12px; }
+      .screen { fill: #f8fafc; stroke: #94a3b8; stroke-width: 2; rx: 10px; }
+      .title { fill: #f8fafc; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 20px; font-weight: bold; }
+      .subtitle { fill: #38bdf8; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 14px; font-weight: bold; }
+      .btn-text { fill: #ffffff; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 12px; font-weight: bold; text-anchor: middle; dominant-baseline: central; }
+    </style>
+  </defs>
+
+  <rect class="bg" width="960" height="460" />
+  <text x="30" y="38" class="title">5. GÖRSEL REHBER: SAYAÇ, PROGRESS BAR, ZAMANLAYICI (TIMER) VE SSS KARTLARI</text>
+
+  <g transform="translate(25, 60)">
+    <rect class="card" width="290" height="370" />
+    <text x="15" y="28" class="subtitle">1) AKILLI SAYAÇ &amp; PROGRESS BAR</text>
+    <rect class="screen" x="18" y="45" width="254" height="305" />
+    <rect x="35" y="60" width="220" height="80" rx="10" fill="#e0f2fe" stroke="#0284c7" stroke-width="2" />
+    <text x="145" y="92" fill="#0369a1" font-family="sans-serif" font-size="32" font-weight="bold" text-anchor="middle">7</text>
+    <text x="145" y="122" fill="#0284c7" font-family="sans-serif" font-size="13" font-weight="bold" text-anchor="middle">İlerleme: %70 (Maks: 10)</text>
+    <rect x="35" y="152" width="220" height="12" rx="6" fill="#cbd5e1" />
+    <rect x="35" y="152" width="154" height="12" rx="6" fill="#0284c7" />
+    <circle cx="95" cy="205" r="24" fill="#2563eb" />
+    <text x="95" y="205" class="btn-text">-</text>
+    <circle cx="195" cy="205" r="24" fill="#2563eb" />
+    <text x="195" y="205" class="btn-text">+</text>
+    <rect x="35" y="245" width="220" height="36" rx="8" fill="#dc2626" />
+    <text x="145" y="263" class="btn-text">Sıfırla (Reset)</text>
+    <text x="145" y="315" fill="#16a34a" font-family="sans-serif" font-size="12" font-weight="bold" text-anchor="middle">10 olunca + butonu gri/pasif olur!</text>
+  </g>
+
+  <g transform="translate(335, 60)">
+    <rect class="card" width="290" height="370" />
+    <text x="15" y="28" class="subtitle">2) KRONOMETRE &amp; GERİ SAYIM</text>
+    <rect class="screen" x="18" y="45" width="254" height="305" />
+    <rect x="35" y="60" width="220" height="90" rx="14" fill="#0f172a" />
+    <text x="145" y="85" fill="#94a3b8" font-family="sans-serif" font-size="12" text-anchor="middle">KALAN SÜRE / GEÇEN SÜRE</text>
+    <text x="145" y="125" fill="#38bdf8" font-family="sans-serif" font-size="36" font-weight="bold" text-anchor="middle">10 sn</text>
+    <rect x="35" y="170" width="220" height="40" rx="8" fill="#16a34a" />
+    <text x="145" y="190" class="btn-text">Başlat (Start)</text>
+    <rect x="35" y="220" width="220" height="40" rx="8" fill="#f97316" />
+    <text x="145" y="240" class="btn-text">Duraklat (Pause / Stop)</text>
+    <rect x="35" y="270" width="220" height="40" rx="8" fill="#64748b" />
+    <text x="145" y="290" class="btn-text">Sıfırla (Reset)</text>
+    <text x="145" y="330" fill="#475569" font-family="sans-serif" font-size="11" text-anchor="middle">useEffect + setInterval(1000)</text>
+  </g>
+
+  <g transform="translate(645, 60)">
+    <rect class="card" width="290" height="370" />
+    <text x="15" y="28" class="subtitle">3) AÇILIR SSS &amp; ADIM (STEP) KARTI</text>
+    <rect class="screen" x="18" y="45" width="254" height="305" />
+    <rect x="30" y="60" width="230" height="110" rx="12" fill="#ffffff" stroke="#cbd5e1" stroke-width="2" />
+    <text x="42" y="85" fill="#0f172a" font-family="sans-serif" font-size="13" font-weight="bold">Soru: Proje nasıl paylaşılır?</text>
+    <text x="240" y="85" fill="#2563eb" font-family="sans-serif" font-size="18" font-weight="bold">−</text>
+    <text x="42" y="115" fill="#475569" font-family="sans-serif" font-size="12">QR kodu okutarak Expo Go ile</text>
+    <text x="42" y="133" fill="#475569" font-family="sans-serif" font-size="12">hemen test edebilirsiniz.</text>
+
+    <rect x="30" y="185" width="230" height="145" rx="12" fill="#0f172a" />
+    <text x="44" y="210" fill="#38bdf8" font-family="sans-serif" font-size="12" font-weight="bold">Adım 1 / 3</text>
+    <text x="44" y="232" fill="#f8fafc" font-family="sans-serif" font-size="15" font-weight="bold">React Native'e Hoş Geldin</text>
+    <text x="44" y="255" fill="#cbd5e1" font-family="sans-serif" font-size="11">Temel bileşenleri adım adım öğren.</text>
+    <rect x="44" y="275" width="202" height="38" rx="8" fill="#38bdf8" />
+    <text x="145" y="294" fill="#0f172a" font-family="sans-serif" font-size="13" font-weight="bold" text-anchor="middle" dominant-baseline="central">Devam Et (Continue)</text>
+  </g>
+</svg>
